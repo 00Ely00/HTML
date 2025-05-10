@@ -1,3 +1,25 @@
+@keyframes color-change{
+    0%{
+        color: rgb(67, 67, 82);
+        font-size: 35px;
+        opacity: 1;
+    }
+    50%{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        opacity: 0.2;
+    }   
+    100%{
+        color: rgb(70, 70, 82);
+        font-size: 35px;
+        opacity: 1;
+    }
+}
+
+h1{
+    animation: color-change 2s infinite;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif,  sans-serif; /* Familia de fuentes */
     font-size: 20px; /* El tamaño de la fuente principal en el tag <p></p> */
